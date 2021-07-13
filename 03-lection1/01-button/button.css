@@ -11,6 +11,7 @@
     height: 48px;
     border: 0;
     color: var(--white);
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
 
 .button_primary {
@@ -41,4 +42,5 @@
 
 .button_disabled {
     opacity: 0.5;
+    cursor: not-allowed;
 }
