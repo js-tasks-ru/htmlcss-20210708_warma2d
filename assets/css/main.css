@@ -12,6 +12,9 @@
     --grey-3: #ACB5BD;
     --grey-4: #495057;
 
+    --hover-blue: #2342C0;
+    --hover-purple: #5028C6;
+
     --error: var(--red);
     --success: var(--blue);
 
