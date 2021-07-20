@@ -11,6 +11,10 @@
     --grey-2: #DDE2E5;
     --grey-3: #ACB5BD;
     --grey-4: #495057;
+    --grey-5: #E2E6E8;
+    --grey-6: #F3F5F5;
+    --grey-7: #E3E7EA;
+
 
     --hover-blue: #2342C0;
     --hover-purple: #5028C6;
@@ -26,7 +30,7 @@
     font-family: 'Roboto', sans-serif;
 }
 
-details, summary {
+details, summary, div {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
