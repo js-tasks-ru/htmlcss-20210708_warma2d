@@ -4,8 +4,22 @@
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./tooltip.css">
-    </head>
-    <body>
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
 
+            .mt100 {
+                margin-top: 100px;
+            }
+        </style>
+    </head>
+    <body class="">
+        <div class="tooltip mt100">
+            <img src="trigger.svg" class="tooltip__trigger"/>
+            <div class="tooltip__help">Helper text!</div>
+        </div>
     </body>
 </html>
