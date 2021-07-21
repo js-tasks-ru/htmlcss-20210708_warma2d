@@ -1,12 +1,14 @@
-.darkLayer {
+.modal {
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.7);
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
     position: fixed;
     display: none;
 }
 
-.modalWindow {
+.modal__window {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -16,29 +18,28 @@
     width: 428px;
     height: 294px;
     padding: 30px 40px 33px;
-    display: none;
 }
 
-.cross {
+.modal__cross {
     position: absolute;
     right: 12px;
     top: 12px;
     cursor: pointer;
 }
 
-.modalWindow__title, .modalWindow__text {
+.modal__title, .modal__text {
     font-family: Inter;
     font-style: normal;
     line-height: 24px;
 }
 
-.modalWindow__title {
+.modal__title {
     color: var(--black-2);
     font-size: 20px;
     font-weight: 600;
 }
 
-.modalWindow__text {
+.modal__text {
     margin-top: 14px;
     font-size: 16px;
     font-weight: normal;
