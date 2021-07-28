@@ -45,7 +45,7 @@
 
 .switcher__input:checked + .switcher__state .switcher__icon {
     background-color: var(--white);
-    transform: translate(-1%, -50%);
+    transform: translate(0px, -50%);
 }
 
 .switcher__input:disabled + .switcher__state .switcher__icon {
