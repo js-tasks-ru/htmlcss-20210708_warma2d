@@ -40,3 +40,7 @@ details, summary, div {
     padding: 0;
     margin: 0;
 }
+
+.hide {
+    display: none !important;
+}
